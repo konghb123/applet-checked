@@ -1,0 +1,5 @@
+function inArray(arr,val){
+  return arr.indexOf(val)===-1?false:true
+}
+
+module.exports.inArray=inArray
